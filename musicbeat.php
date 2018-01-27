@@ -32,21 +32,78 @@
 
 				<section class="main_story_wrap">
 					
-					<div class="story_img article_01">
-						<a class="story_article_active" href="article01.php"><p>Bandemonium take the place of ailing Mwansa Mwansa</p></a>
-					</div>
-					<div class="story_img article_02">
-						<a class="story_article_active" href="article02.php">
-							<p>Crooked Creek Warblers sing country on a chilly night</p></a>
-					</div>
+					<!-- <?php include "includes/articlebox.php"; ?> -->
 
-					<div class="story_img article_03">
-						<p>Incura inks new American record deal</p><
-					</div>
-					<div class="story_img article_04"><p>Not a lot going on to open 2018</p></div>
-					<div class="story_img article_05"><p>Fast Times rock the hits at Casino </p>Lethbridge</div>
-					<div class="story_img article_06"><p>Lots of live music for New Year’s Eve 2017</p></div>
-					<div class="story_img article_07"><p>Jenn and Paul Kype sing the hits for Casino crowd</p></div>
+					<?php $article_box = "
+						<div class='story_img article_01 bg_img_box'>
+							<a class='story_article_active bg_link_botton' href='article01.php'>
+								<p>Bandemonium take the place of ailing Mwansa Mwansa</p>
+							</a>
+						</div>";
+					echo $article_box;
+					?> 	
+
+
+					<?php $article_box = "
+						<div class='story_img article_02 bg_img_box'>
+							<a class='story_article_active bg_link_botton' href='article02.php'>
+								<p>Crooked Creek Warblers sing country on a chilly night</p>
+							</a>
+						</div>"
+						;
+						echo $article_box;
+					?>  
+
+					<?php $article_box = "
+						<div class='story_img article_03 bg_img_box'>
+							<a class='story_article_active bg_link_botton' href='#'>
+								<p>Incura inks new American record deal</p>
+							</a>
+						</div>"
+						;
+						echo $article_box;
+					?>  
+
+					<?php $article_box = "
+						<div class='story_img article_04 bg_img_box'>
+							<a class='story_article_active bg_link_botton' href='#'>
+								<p>Not a lot going on to open 2018</p>
+							</a>
+						</div>"
+						;
+						echo $article_box;
+					?>  
+
+					<?php $article_box = "
+						<div class='story_img article_05 bg_img_box'>
+							<a class='story_article_active bg_link_botton' href='#'>
+								<p>Fast Times rock the hits at Lethbridge Casino</p>
+							</a>
+						</div>"
+						;
+						echo $article_box;
+					?>  
+					<?php $article_box = "
+						<div class='story_img article_06 bg_img_box'>
+							<a class='story_article_active bg_link_botton' href='#'>
+								<p>Lots of live music for New Year’s Eve 2017</p>
+							</a>
+						</div>"
+						;
+						echo $article_box;
+					?>  
+
+					<?php $article_box = "
+						<div class='story_img article_07 bg_img_box'>
+							<a class='story_article_active bg_link_botton' href='#'>
+								<p>Jenn and Paul Kype sing the hits for Casino crowd</p>
+							</a>
+						</div>"
+						;
+						echo $article_box;
+					?>  
+					
+
 				</section>
 			</div>
 		</section>

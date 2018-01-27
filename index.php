@@ -1,4 +1,5 @@
 <?php
+
 	$page_title = "HOME";
 	$active_class = "home_active";
 	$hero_text = "MISSED THE ENCORES?";
@@ -15,15 +16,14 @@
 
 	<div class="flex_wrap">
 		
-		<?php include "includes/nav.php"; ?>
-<!-- 		<?php include "includes/hero.php"; ?> -->
+		<?php $current = 'home'; include "includes/nav.php"; ?>
 
 		<div class="hero_box">
 			<div class="homepage_grid">
 				
-					<div class="homepage_box home_about">
+					<div class="bg_img_box home_about">
 						
-						<a class="homepage_link" href="aboutus.php">
+						<a class="bg_link_botton bg_img_text" href="aboutus.php">
 							<h2>We re LeBeat.</h2>
 							<p>The only online art and entertainment magazine. Learn more abouto us</p>
 						</a>
@@ -32,18 +32,18 @@
 			
 				
 
-				<div class="homepage_box home_ads1">
+				<div class="bg_img_box home_ads1">
 					
 				</div>
 
 
-				<div class="homepage_box home_ads2">
+				<div class="bg_img_box home_ads2">
 					
 				</div>
 
 				
-					<div class="homepage_box home_guide">
-						<a class="homepage_link" href="musicguide.php">
+					<div class="bg_img_box home_guide">
+						<a class="bg_link_botton bg_img_text" href="musicguide.php">
 							<p>Check out new music evenets!</p>
 						</a>
 						
@@ -51,8 +51,8 @@
 			
 
 				
-					<div class="homepage_box home_story">
-						<a class="homepage_link" href="musicbeat.php">
+					<div class="bg_img_box home_story">
+						<a class="bg_link_botton bg_img_text" href="musicbeat.php">
 							<p>What's happened in Town?</p>
 						</a>
 						
