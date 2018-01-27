@@ -2,14 +2,13 @@
 * {
   box-sizing: border-box; }
 
-html {
-  height: 100%; }
+
 
 body {
   background-color: #fff;
   margin: 0;
   padding: 0;
-  background: #313131; }
+}
 
 .flex_wrap {
   max-width: 100% !important;
@@ -96,8 +95,12 @@ footer {
 
 .hero {
   width: 100%;
-  height: 80vh;
-  background: #3B363C; }
+  height: 60vh;
+  background: #3B363C; 
+  display: flex;
+  align-items: center;
+
+  }
 
 .btn {
   text-decoration: none;
@@ -191,11 +194,31 @@ p {
   margin-left: 20px; }
 
 /*home*/
+
+.hero_box {
+  width: 90%;
+  max-width: 940px;
+  margin: 5px auto;
+}
+
 .homepage_grid {
   display: grid;
+  grid-gap: 1px;
   grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: minmax(150px, auto) minmax(150px, auto);
-    grid-auto-rows: minmax(100px, auto);
+  grid-template-rows: minmax(150px, auto) minmax(150px, auto);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.homepage_grid > * {
+  padding: 10px;
+}
+
+.homepage_grid a div h2, .homepage_grid a div p {
+  margin: 0;
+}
+
+.homepage_grid a div h2+ .homepage_grid a div p {
+  margin-top: 0;
 }
 
 .homepage_link {
@@ -205,21 +228,64 @@ p {
 }
 
 .homepage_box {
+  position: relative;
   background-repeat: no-repeat;
-  background-position: cover;
+  background-position:cover;
   background-size: 100%;
+  height: 100%; 
 }
 
 .home_about {
+  grid-column: 1/3;
+  grid-row: 1/ 4;
   background-image: url(../img/index_about.jpg);
+
 }
 
 .home_ads1 {
-  background-image: url(../img/ads01.png);
+  grid-column: 3/-1;
+  grid-row: 1 / 6;
+  background-image: url(../img/ads03.png);
 }
 
 .home_ads2 {
-  background-image: url(../img/ads02.png);
+  grid-column: 1/2;
+  grid-row: 4 / 9;
+  background-image: url(../img/ads01.png);
+}
+
+
+.home_guide {
+  grid-column: 2/-1;
+  grid-row: 6 / 9;
+  background-image: url(../img/article05.jpg);
+}
+
+.home_story {
+  grid-column: 2/3;
+  grid-row: 4 / 6;
+  background-image: url(../img/article01.jpg);
+}
+
+/*text over images*/
+.homepage_link {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 4px 8px;
+  color: white;
+  margin: 0;
+  padding: 10px;
+}
+
+.homepage_link:hover {
+  color: rgba(238,214,27, 0.75); 
+}
+
+.homepage_link > p {
+  margin: 0;
+  padding: 0;
 }
 
 .social_icon {

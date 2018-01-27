@@ -16,40 +16,51 @@
 	<div class="flex_wrap">
 		
 		<?php include "includes/nav.php"; ?>
-		<?php include "includes/hero.php"; ?>
+<!-- 		<?php include "includes/hero.php"; ?> -->
 
-		<div class="homepage_grid">
-			<a class="homepage_link" href="aboutus.php">
-				<div class="homepage_box home_about">
-					<h2>We re LeBeat.</h2>
-					<p>The only online art and entertainment magazine. Learn more abouto us</p>
+		<div class="hero_box">
+			<div class="homepage_grid">
+				
+					<div class="homepage_box home_about">
+						
+						<a class="homepage_link" href="aboutus.php">
+							<h2>We re LeBeat.</h2>
+							<p>The only online art and entertainment magazine. Learn more abouto us</p>
+						</a>
+						
+					</div>
+			
+				
+
+				<div class="homepage_box home_ads1">
+					
 				</div>
-			</a>
+
+
+				<div class="homepage_box home_ads2">
+					
+				</div>
+
+				
+					<div class="homepage_box home_guide">
+						<a class="homepage_link" href="musicguide.php">
+							<p>Check out new music evenets!</p>
+						</a>
+						
+					</div>
 			
 
-			<div class="homepage_box home_ads1">
-				a
-			</div>
-
-
-			<div class="homepage_box home_ads2">
-				b
-			</div>
-
-			<a class="homepage_link" href="musicguide.php">
-				<div class="homepage_box home_guide">
-					<p>Check out new music evenets!</p>
-				</div>
-			</a>
-
-			<a class="homepage_link" href="musicbeat.php">
+				
 					<div class="homepage_box home_story">
-				<p>What's happened in Town?</p>
-				</div>
-			</a>
-			
+						<a class="homepage_link" href="musicbeat.php">
+							<p>What's happened in Town?</p>
+						</a>
+						
+					</div>
 
+			</div>
 		</div>
+		
 			
 
 		
