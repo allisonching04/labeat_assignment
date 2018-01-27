@@ -24,6 +24,7 @@ nav ul {
   margin: 0;
   display: -webkit-flex;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap; }
 
@@ -45,6 +46,15 @@ nav ul li:first-child {
 
 nav ul li:nth-child(n+2) {
   margin-right: 8px; }
+
+.logo {
+  font: 2.5em "Raleway", sans-serif;
+}
+
+.logo_pt2 {
+  font-weight: bold;
+}
+
 
 .current {
   color: #EEC41B; }
