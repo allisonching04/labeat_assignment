@@ -1,5 +1,5 @@
 <?php
-
+	$this_page = "index";
 	$page_title = "HOME";
 	$active_class = "home_active";
 	$hero_text = "MISSED THE ENCORES?";

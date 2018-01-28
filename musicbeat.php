@@ -1,4 +1,5 @@
 <?php
+	$this_page = "musicbeat";
 	$page_title = "MusicBeat";
 	$active_class = "three_active";
 	$hero_text = "<span class='yellow_header'>ALL</span> you need to 

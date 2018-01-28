@@ -5,7 +5,9 @@
 				<span class='yellow_header'> chilly night</span>";
 	$get_type_name = "Country";
 	$get_show_name = "<br>BCrooked Creek Warblers sing country on a chilly night";
-	$story_created_date = "Last Updated ( Wednesday, 10 January 2018 16:16 )";
+	$story_created_date ="<span class='page_updated_bold'>Last Updated</span><br><span class='week_bold'>Wednesday</span>, 10 January 2018";
+
+
 	$display_story_pic = "../img/article02.jpg";
 	$featured_img_text = "GABRIEL THAINE AND STEVE MARTIN OF THE CROOKED CREEK WARBLERS. ";
 ?>
@@ -27,7 +29,7 @@
 
 		<section class="center_intro main_section">
 
-			<div class="inner_center_content">
+			<div class="inner_center_content article_page_grid">
 				
 				<?php include "includes/story.php"; ?>
 

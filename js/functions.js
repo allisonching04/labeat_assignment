@@ -1,9 +1,5 @@
 
 
-var blur_bg_home = $('.blur_bg_home');
-var blur_bg_guide = $('.blur_bg_guide');
-var blur_bg_events = $('.blur_bg_events');
-
 function blurred() {
 	$(blur_bg_home).mouseenter(function() {
 		$(".home_about").css("background-image", "url('../img/indexabout.jpg')");
@@ -31,6 +27,8 @@ function blurred3() {
 		$(".home_story").css("background-image", "url('../img/article01.jpg')");
 	});
 }
+
+
 
 blurred();
 blurred2();

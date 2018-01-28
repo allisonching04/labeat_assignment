@@ -1,4 +1,5 @@
 <?php
+	$this_page = "about";
 	$page_title = "ABout US";
 	$active_class = "two_active";
 	$hero_text = "<span class='yellow_header'>la beat </span>designed to support 

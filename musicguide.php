@@ -1,4 +1,5 @@
 <?php
+	$this_page = "musicguide";
 	$page_title = "LiveBeat";
 	$active_class = "four_active";
 	$hero_text = "The only gig
