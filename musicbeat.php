@@ -23,7 +23,7 @@
 		<section class="storyPage_grid main_section">
 			
 			<div class="inner_center_content">
-				<h1>
+				<h1 class="">
 					<?php 
 						$main_title = "Latest <span class='red_title'>Updated</span>";
 						echo "$main_title";

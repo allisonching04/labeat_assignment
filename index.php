@@ -21,10 +21,10 @@
 		<div class="hero_box">
 			<div class="homepage_grid">
 				
-					<div class="bg_img_box home_about">
+					<div class="bg_img_box home_about global_transition">
 						
-						<a class="bg_link_botton bg_img_text" href="aboutus.php">
-							<h2>We re LeBeat.</h2>
+						<a class="bg_link_botton bg_img_text blur_bg_home" href="aboutus.php">
+							<h2>We re La.Beat</h2>
 							<p>The only online art and entertainment magazine. Learn more abouto us</p>
 						</a>
 						
@@ -42,8 +42,8 @@
 				</div>
 
 				
-					<div class="bg_img_box home_guide">
-						<a class="bg_link_botton bg_img_text" href="musicguide.php">
+					<div class="bg_img_box home_guide global_transition">
+						<a class="bg_link_botton bg_img_text blur_bg_guide" href="musicguide.php">
 							<p>Check out new music evenets!</p>
 						</a>
 						
@@ -51,8 +51,8 @@
 			
 
 				
-					<div class="bg_img_box home_story">
-						<a class="bg_link_botton bg_img_text" href="musicbeat.php">
+					<div class="bg_img_box home_story global_transition">
+						<a class="bg_link_botton bg_img_text blur_bg_events" href="musicbeat.php">
 							<p>What's happened in Town?</p>
 						</a>
 						
@@ -67,6 +67,6 @@
 
 	</div>
 	<?php include "includes/footer.php"; ?>
-	<script type="text/javascript" src="js/functions.js"></script>
+	
 </body>
 </html>
