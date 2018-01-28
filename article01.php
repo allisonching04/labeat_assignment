@@ -5,7 +5,7 @@
 				<span class='yellow_header'> Mwansa Mwansa</span>";
 	$get_type_name = "Country";
 	$get_show_name = "<br>Bandemonium take the place of ailing Mwansa Mwansa";
-	$story_created_date = "Last Updated ( Wednesday, 10 January 2018 16:32 )";
+	$story_created_date = "<span class='page_updated_bold'>Last Updated :</span><br>Wednesday, 10 January 2018";
 	$display_story_pic = "../img/article01.jpg";
 	$featured_img_text = "BANDEMONIUM PLAYING R AND B AT THE OWL ACOUSTIC LOUNGE";
 ?>
@@ -28,7 +28,7 @@
 			
 
 
-			<div class="inner_center_content">
+			<div class="inner_center_content article_page_grid">
 				
 
 				<?php include "includes/story.php"; ?>
@@ -52,7 +52,7 @@
  					They will be playing Casino Lethbridge, Jan. 19 and 20 if you missed them.
 				</p>
 
-				<?php include "includes/editor.php"; ?>
+				<!-- <?php include "includes/editor.php"; ?> -->
 			</div>
 		</section>
 
