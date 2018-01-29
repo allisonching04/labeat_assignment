@@ -1,4 +1,5 @@
 <?php
+	$this_page = "musicbeat";
 	$page_title = "Bandemonium";
 	$active_class = "three_active";
 	$hero_text = "<span class='yellow_header'>Crooked Creek Warblers </span> sing country on a

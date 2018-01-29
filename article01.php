@@ -1,4 +1,5 @@
 <?php
+	$this_page = "musicbeat";
 	$page_title = "Bandemonium";
 	$active_class = "three_active";
 	$hero_text = "<span class='yellow_header'>Bandemonium</span> take the place of ailing 

@@ -2,8 +2,6 @@
 	$this_page = "index";
 	$page_title = "HOME";
 	$active_class = "home_active";
-	$hero_text = "MISSED THE ENCORES?";
-	$second_hero_text = "WE DIDN'T"
 ?>
 
 <!DOCTYPE html>
