@@ -18,7 +18,6 @@
 
 <div class="inner_story_bg_image article_img_box">
 	<!-- testing  -->
-	<img class="story_img_full" src="<?php echo $display_story_pic; ?>" width="100%">
 
 	<h3 class="featured_img_text">
 		<?php echo $featured_img_text; ?>

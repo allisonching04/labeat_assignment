@@ -7,7 +7,7 @@
 	$get_type_name = "Country";
 	$get_show_name = "<br>Bandemonium take the place of ailing Mwansa Mwansa";
 	$story_created_date = "<span class='page_updated_bold'>Last Updated</span><br><span class='week_bold'>Wednesday</span>, 10 January 2018";
-	$display_story_pic = "../img/article01.jpg";
+
 	$featured_img_text = "BANDEMONIUM PLAYING R AND B AT THE OWL ACOUSTIC LOUNGE";
 ?>
 

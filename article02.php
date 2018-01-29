@@ -9,7 +9,7 @@
 	$story_created_date ="<span class='page_updated_bold'>Last Updated</span><br><span class='week_bold'>Wednesday</span>, 10 January 2018";
 
 
-	$display_story_pic = "../img/article02.jpg";
+
 	$featured_img_text = "GABRIEL THAINE AND STEVE MARTIN OF THE CROOKED CREEK WARBLERS. ";
 ?>
 
